@@ -34,7 +34,7 @@ public class PosterManager {
             resultLength = limitFilm;
         }
         String[] reversed = new String[resultLength];
-        for (int i = 0; i < films.length; i++) {
+        for (int i = 0; i < reversed.length; i++) {
             reversed[i] = films[films.length - 1 - i];
         }
         return reversed;
